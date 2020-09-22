@@ -1,0 +1,18 @@
+# HTTP Cookie File downloaded with cookies.txt by Genuinous @genuinous
+# This file can be used by wget, curl, aria2c and other standard compliant tools.
+# Usage Examples:
+#   1) wget -x --load-cookies cookies.txt "https://discord.com/channels/@me"
+#   2) curl --cookie cookies.txt "https://discord.com/channels/@me"
+#   3) aria2c --load-cookies cookies.txt "https://discord.com/channels/@me"
+#
+.discord.com	TRUE	/	TRUE	1603322897	__cfduid	dfc03a093c3150af86adf89d04b5a80e41600730886
+discord.com	FALSE	/	FALSE	0	locale	en-US
+blog.discord.com	FALSE	/	TRUE	1632266954	uid	lo_8524c3c2f276
+blog.discord.com	FALSE	/	TRUE	1632266954	sid	1:DySVXx4c9Evme59F9hplJkCaRTW4jTV+Ol/4NEm0NNCYrHd8wUh4XjRrGtRGY3q6
+blog.discord.com	FALSE	/	TRUE	1632266954	optimizelyEndUserId	lo_8524c3c2f276
+.discord.com	TRUE	/	FALSE	1600817450	_gid	GA1.2.913481222.1600730955
+.discord.com	TRUE	/	FALSE	1663803050	_ga	GA1.2.914967774.1600730955
+blog.discord.com	FALSE	/	FALSE	1601335756	lightstep_session_id	3b43e48d2472093a
+blog.discord.com	FALSE	/	FALSE	1601335756	lightstep_guid/lite-web	0223486e7c96d5bf
+.discord.com	TRUE	/	FALSE	1616282957	optimizelyEndUserId	lo_8524c3c2f276
+.discord.com	TRUE	/	FALSE	1634894960	_parsely_visitor	{%22id%22:%22pid=7946059958b9443ed41d171127140bac%22%2C%22session_count%22:1%2C%22last_session_ts%22:1600730958025}
