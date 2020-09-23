@@ -4,25 +4,30 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys 
 import pickle
 
+#Clicking Google Search button 
+#driver.find_element_by_xpath("//input[@value='Google Search']").click()
 
-#pickle.dump( driver.get_cookies() , open("cookies.pkl","wb"))
-
-#cookies = pickle.load(open("cookies.pkl", "rb"))
-#for cookie in cookies:
-#    driver.add_cookie(cookie)
+#Keyword searched in the chrometest
+searchtext =('Steve Wozniak')
 
 
 def chrometest():
     driver = webdriver.Chrome()
     driver.get("https://google.com")
-    element = driver.find_element_by_xpath("//*[@name='q']")
-    element.send_keys('asdf')
+    driver.find_element_by_xpath("//*[@name='q']").send_keys(searchtext)  
+
+    driver.find_element_by_xpath("//*[@name='q']").send_keys(Keys.ENTER)    
+    time.sleep(45)
+
+    
 
 def discordlogin():
     driver = webdriver.Chrome()
     driver.get("https://discord.com/login")
-    element = driver.find_element_by_xpath("//*[@name='q']")
-    element.send_keys('asdf')
+    element = driver.find_element_by_xpath("//input[@name='email']")
+   
+    element.send_keys(searchtext)
+    time.sleep(45)
 
 def runloop():
 
