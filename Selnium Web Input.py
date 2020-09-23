@@ -3,6 +3,7 @@ import random
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys 
 import pickle
+import PasswordRead as PR
 
 #Clicking Google Search button 
 #driver.find_element_by_xpath("//input[@value='Google Search']").click()
@@ -25,9 +26,9 @@ def discordlogin():
     driver = webdriver.Chrome()
     driver.get("https://discord.com/login")
     element = driver.find_element_by_xpath("//input[@name='email']")
-   
     element.send_keys(searchtext)
-    time.sleep(45)
+    time.sleep(2)
+    
 
 def runloop():
 
@@ -43,8 +44,11 @@ def runloop():
     else:
         runloop()
 
-
+PR.login()
 runloop()
+
+
+
 
 
 #element = driver.find_elements_by_xpath("//input[@name='email']")
